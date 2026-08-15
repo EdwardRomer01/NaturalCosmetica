@@ -31,6 +31,7 @@
             label1 = new Label();
             listBox1 = new ListBox();
             pictureBox1 = new PictureBox();
+            label2 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -61,11 +62,21 @@
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
             // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(526, 92);
+            label2.Name = "label2";
+            label2.Size = new Size(63, 20);
+            label2.TabIndex = 3;
+            label2.Text = "Edward ";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(pictureBox1);
             Controls.Add(listBox1);
             Controls.Add(label1);
@@ -80,5 +91,6 @@
         private Label label1;
         private ListBox listBox1;
         private PictureBox pictureBox1;
+        private Label label2;
     }
 }
